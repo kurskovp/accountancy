@@ -1,6 +1,11 @@
+from application2.salary import calculate_salary
+from application2.people import get_employees
+
 
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+
+    calculate_salary()
+    get_employees()
 
